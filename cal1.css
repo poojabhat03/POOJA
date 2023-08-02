@@ -1,0 +1,60 @@
+body{
+   
+    background-color: aquamarine;
+}
+.in{
+   
+    text-align: center;
+    margin-left: 60px;
+    color: Red;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.add{
+    margin-top:70px;
+    width:100px; 
+    color:skyblue; 
+    border-radius: 10px;
+     background-color:skyblue; 
+     font-family: 'Times New Roman', Times, serif;
+     height:25px;
+}
+.sub{
+    width:100px; 
+    color:skyblue; 
+    border-radius: 10px;
+     background-color:skyblue; 
+     font-family: 'Times New Roman', Times, serif;
+     height:25px;
+}
+.mul{
+    width:100px; 
+    color:skyblue; 
+    border-radius: 10px;
+     background-color:skyblue; 
+     font-family: 'Times New Roman', Times, serif;
+     height:25px;
+}
+.divi{
+    width:100px; 
+    color:skyblue; 
+    border-radius: 10px;
+     background-color:skyblue; 
+     font-family: 'Times New Roman', Times, serif;
+     height:25px;
+}
+.mod{
+    width:100px; 
+    color:skyblue; 
+    border-radius: 10px;
+     background-color:skyblue; 
+     font-family: 'Times New Roman', Times, serif;
+     height:25px;
+}
+.res{
+    
+    color:violet; 
+    font-family: 'Times New Roman', Times, serif;
+  
+}

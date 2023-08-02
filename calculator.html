@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset=utf-8 />
+<title>Calculator</title>
+<link rel="stylesheet" type="text/css" href="cal.css">
+</head>
+<body>
+    <h1 style="text-align:center; font-size:50px;color:darkslategray; margin-top:70px;"> Calculator</h1>
+<form>
+    <div class="in">
+<label class="in1" align="center">1st Number :</label>
+ <input type="text" id="firstNumber" align="center"/><br><br>
+<label class="in2" align="center" style="border-top: 250px;">2nd Number:</label> 
+<input type="text" id="secondNumber" align="center" /><br>
+
+<input type="button" onClick="additionby()" Value="Addition" class="add"  />
+<input type="button" onClick="subtractionby()" Value="Subtaction" class="sub" />
+<input type="button" onClick="multiplyBy()" Value="Multiplication" class="mul"/>
+<input type="button" onClick="divideBy()" Value="Divide" class="divi" />
+<input type="button" onClick="moduloby()" Value="Modulas"  class="mod"/>
+</form>
+<h3 class="res">The Result is : <br>
+<span id = "result"></span>
+</h3>
+</div>
+<script language="Javascript" type="text/Javascript">
+function additionby() 
+{ 
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+        const sum=num1+num2;
+document.getElementById("result").innerHTML = sum;
+}
+function subtractionby() 
+{ 
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+document.getElementById("result").innerHTML = num1 - num2;
+}
+function multiplyBy()
+{
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+        document.getElementById("result").innerHTML = num1 * num2;
+}
+
+function divideBy() 
+{ 
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+document.getElementById("result").innerHTML = num1 / num2;
+}
+
+function moduloby() 
+{ 
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+document.getElementById("result").innerHTML = num1 % num2;
+}
+</script>
+</body>
+</html>
